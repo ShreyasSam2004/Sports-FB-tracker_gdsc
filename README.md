@@ -4,4 +4,4 @@ cd fb
 npm install 
 npm start 
 for running this project
-go inside fb to know more!!
+(go inside fb file to know more!!)
