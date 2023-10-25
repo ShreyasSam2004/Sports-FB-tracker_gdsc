@@ -55,6 +55,9 @@ export default function NavBar() {
           <li tabIndex={0}>
             <Link to="/Player">Players</Link>
           </li>
+          <li tabIndex={0}>
+            <Link to="/Teams">Teams</Link>
+          </li>
           
         </ul>
       </div>

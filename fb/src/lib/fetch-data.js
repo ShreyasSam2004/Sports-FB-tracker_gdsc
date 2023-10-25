@@ -121,7 +121,29 @@ export const fetchFixtures = async () => {
   };
   
 
+  export const fetchNavbarVenues = async () => {
+    const options = {
+      method: "GET",
+      headers: {
+        "X-RapidAPI-Key":  "7aac980ff3msh93c81d21d90965cp1dee86jsnaac8ce58a3fb",
 
+        "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com",
+      },
+    };
+  
+    const result = await fetch(
+      'https://api-football-v1.p.rapidapi.com/v3/teams',
+
+      options
+    )
+      .then((response) => response.json())
+      .then((response) => {
+        return response;
+      })
+      .catch((err) => console.error(err));
+  
+    return result;
+  };
 
 
  
