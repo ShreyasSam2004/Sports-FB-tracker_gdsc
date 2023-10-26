@@ -36,7 +36,7 @@ export default function NavBar() {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost normal-case text-xl">
-          LiveScores
+          FootballLive
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
